@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap");
 
 * {
   padding: 0;
@@ -59,7 +59,7 @@ body {
   color: aqua;
   text-decoration: underline;
   text-transform: uppercase;
-  font-family: 'Piazolla', sans-serif;
+  font-family: "Piazolla", sans-serif;
 }
 
 .whyHLetter {
@@ -68,7 +68,7 @@ body {
   color: darkgoldenrod;
   text-decoration: overline;
   text-transform: lowercase;
-  font-family: 'Ceviche One', sans-serif;
+  font-family: "Ceviche One", sans-serif;
 }
 
 .whyYLetter {
@@ -77,228 +77,755 @@ body {
   color: coral;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  font-family: "Raleway Dots", sans-serif;
 }
 
 /* DID word */
 
+.colorDid {
+  color: #e80c3b;
+}
+
 .didDLetter {
+  font-size: 60px;
+  font-weight: 200;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 
 .didILetter {
+  font-size: 80px;
+  font-weight: 300;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 
 .didDTwoLetter {
+  color: #0c13e8;
+  font-size: 80px;
+  font-weight: 500;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 
 /* THE word */
 
+.theTLetter,
+.theELetter {
+  color: yellow;
+}
+
 .theTLetter {
+  font-size: 45px;
+  font-weight: 200;
+  text-decoration: overline;
+  text-transform: capitalize;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .theHLetter {
+  color: #0c13e8;
+  font-size: 62px;
+  font-weight: 100;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .theELetter {
+  font-size: 60px;
+  font-weight: 150;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 /* FRONT-END word */
 
+.frontendFLetter,
+.frontendRLetter,
+.frontendNTwoLetter {
+  color: #51e80c;
+}
+
 .frontendFLetter {
+  font-size: 70px;
+  font-weight: 650;
+  text-decoration: overline;
+  text-transform: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .frontendRLetter {
+  font-size: 65px;
+  font-weight: 50;
+  text-decoration: dashed;
+  text-transform: capitalize;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .frontendOLetter {
+  color: #aa0ce8;
+  font-size: 45px;
+  font-weight: 250;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .frontendNLetter {
+  color: #0c13e8;
+  font-size: 75px;
+  font-weight: normal;
+  text-decoration: underline;
+  text-transform: none;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .frontendTLetter {
+  color: #e80c38;
+  font-size: 60px;
+  font-weight: 150;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-family: cursive;
 }
 
 .frontendELetter {
+  color: #e80c38;
+  font-size: 80px;
+  font-weight: bold;
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .frontendNTwoLetter {
+  font-size: 40px;
+  font-weight: 750;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .frontendDLetter {
+  color: #aa0ce8;
+  font-size: 40px;
+  font-weight: 450;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 /* DEVELOPER word */
 
+.developerDLetter,
+.developerELetter,
+.developerPLetter,
+.developerRLetter {
+  color: #eb9a65;
+}
+
 .developerDLetter {
+  font-size: 55px;
+  font-weight: 250;
+  text-decoration: line-through;
+  text-transform: capitalize;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .developerELetter {
+  font-size: 70px;
+  font-weight: 150;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .developerVLetter {
+  color: #652cde;
+  font-size: 40px;
+  font-weight: 750;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .developerETwoLetter {
+  color: seagreen;
+  font-size: 40px;
+  font-weight: 750;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .developerLLetter {
+  color: #d90cf0;
+  font-size: 80px;
+  font-weight: normal;
+  text-decoration: line-through;
+  text-transform: lowercase;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .developerOLetter {
+  color: #282a56;
+  font-size: 30px;
+  font-weight: 250;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-family: cursive;
 }
 .developerPLetter {
+  font-size: 80px;
+  font-weight: lighter;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .developerEThreeLetter {
+  color: #e80c3b;
+  font-size: 20px;
+  font-weight: 50;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 .developerRLetter {
+  font-size: 80px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-family: Arial, "Times New Roman", Times, serif;
 }
 
 /* TAKE word */
 
+.takeTLetter,
+.takeALetter {
+  color: #22734f;
+}
+
 .takeTLetter {
+  font-size: 80px;
+  font-weight: normal;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-family: Arial, "Times New Roman", Times, serif;
 }
 .takeALetter {
+  font-size: 20px;
+  font-weight: 200;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-family: Arial, "Times New Roman", Times, serif;
 }
 .takeKLetter {
+  color: #0c13e8;
+  font-size: 30px;
+  font-weight: 100;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 .takeELetter {
+  color: violet;
+  font-size: 100px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-family: Arial, "Times New Roman", Times, serif;
 }
 
 /* UP word */
 
 .upULetter {
+  color: violet;
+  font-size: 60px;
+  font-weight: normal;
+  text-decoration: line-through;
+  text-transform: capitalize;
+  font-family: Arial, "Times New Roman", Times, serif;
 }
 .upPLetter {
+  color: rgb(2, 38, 22);
+  font-size: 70px;
+  font-weight: 300;
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* GARDENING word */
 
+.gardeningGLetter,
+.gardeningALetter,
+.gardeningRLetter,
+.gardeningDLetter {
+  color: rgb(219, 198, 33);
+}
+
 .gardeningGLetter {
+  font-size: 70px;
+  font-weight: 200;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .gardeningALetter {
+  font-size: 70px;
+  font-weight: normal;
+  text-decoration: line-through;
+  text-transform: lowercase;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .gardeningRLetter {
+  font-size: 70px;
+  font-weight: 300;
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .gardeningDLetter {
+  font-size: 90px;
+  font-weight: 500;
+  text-decoration: dashed;
+  text-transform: uppercase;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .gardeningELetter {
+  color: #22734f;
+  font-size: 80px;
+  font-weight: 200;
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .gardeningNLetter {
+  color: #0c13e8;
+  font-size: 50px;
+  font-weight: 500;
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .gardeningILetter {
+  color: #652cde;
+  font-size: 85px;
+  font-weight: normal;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: cursive;
 }
 .gardeningNTwoLetter {
+  color: #51e80c;
+  font-size: 80px;
+  font-weight: 200;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .gardeningGTwoLetter {
+  color: #e80c38;
+  font-size: 60px;
+  font-weight: bold;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 /* BECAUSE word */
 
+.becauseELetter,
+.becauseALetter,
+.becauseULetter,
+.becauseSLetter {
+  color: #3ddb21;
+  font-family: "Courier New", Courier, monospace;
+}
+
 .becauseBLetter {
+  color: #652cde;
+  font-size: 85px;
+  font-weight: 300;
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: cursive;
 }
 .becauseELetter {
+  font-size: 85px;
+  font-weight: normal;
+  text-decoration: underline;
+  text-transform: uppercase;
 }
 .becauseCLetter {
+  color: #652cde;
+  font-size: 75px;
+  font-weight: 150;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
 }
 .becauseALetter {
+  font-size: 35px;
+  font-weight: normal;
+  text-decoration: overline;
+  text-transform: uppercase;
 }
 .becauseULetter {
+  font-size: 70px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: uppercase;
 }
 .becauseSLetter {
+  font-size: 55px;
+  font-weight: normal;
+  text-decoration: overline;
+  text-transform: lowercase;
 }
 .becauseETwoLetter {
+  color: #652cde;
+  font-size: 85px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 /* THEY word */
 
+.theyTLetter,
+.theyHLetter,
+.theyELetter,
+.theyYLetter {
+  color: black;
+}
+
 .theyTLetter {
+  font-size: 55px;
+  font-weight: 300;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 .theyHLetter {
+  font-size: 45px;
+  font-weight: 200;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: cursive;
 }
 .theyELetter {
+  font-size: 45px;
+  font-weight: 100;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 .theyYLetter {
+  font-size: 65px;
+  font-weight: 200;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 /* WANTED word */
 
+.wantedWLetter,
+.wantedALetter,
+.wantedNLetter,
+.wantedDLetter {
+  color: #d90cf0;
+}
+
 .wantedWLetter {
+  font-size: 65px;
+  font-weight: 200;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
 }
 .wantedALetter {
+  font-size: 45px;
+  font-weight: 100;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 .wantedNLetter {
+  font-size: 85px;
+  font-weight: 50;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .wantedTLetter {
+  color: #22734f;
+  font-size: 65px;
+  font-weight: 200;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 .wantedELetter {
+  color: white;
+  font-size: 65px;
+  font-weight: 200;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .wantedDLetter {
+  font-size: 75px;
+  font-weight: 100;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 /* TO word */
 
 .toTLetter {
+  color: yellowgreen;
+  font-size: 75px;
+  font-weight: 150;
+  text-decoration: line-through;
+  text-transform: lowercase;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 .toOLetter {
+  color: brown;
+  font-size: 75px;
+  font-weight: 180;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 /* IMPROVE word */
 
+.improveILetter,
+.improveMLetter,
+.improvePLetter,
+.improveRLetter {
+  color: #db21d8;
+  font-weight: 100;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
 .improveILetter {
+  font-size: 75px;
 }
 .improveMLetter {
+  font-size: 90px;
 }
 .improvePLetter {
+  font-size: 45px;
 }
 .improveRLetter {
+  font-size: 50px;
 }
 .improveOLetter {
+  color: #282a56;
+  font-size: 75px;
+  font-weight: 50;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 .improveVLetter {
+  color: #d90cf0;
+  font-size: 75px;
+  font-weight: 100;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 .improveELetter {
+  color: #3ddb21;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 /* THEIR word */
 
+.theirTLetter,
+.theirELetter,
+.theirILetter,
+.theirRLetter {
+  color: #f5071d;
+}
+
 .theirTLetter {
+  font-size: 65px;
+  font-weight: 100;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
 }
 .theirHLetter {
+  color: #3ddb21;
+  font-size: 75px;
+  font-weight: 200;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 .theirELetter {
+  font-size: 55px;
+  font-weight: 400;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .theirILetter {
+  font-size: 45px;
+  font-weight: 200;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 .theirRLetter {
+  font-size: 85px;
+  font-weight: 300;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* ROOT word */
 
+.rootRLetter,
+.rootOLetter,
+.rootTLetter {
+  color: #c507f5;
+}
+
 .rootRLetter {
+  font-size: 55px;
+  font-weight: 200;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
 }
 .rootOLetter {
+  font-size: 85px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .rootOTwoLetter {
+  color: #282a56;
+  font-size: 55px;
+  font-weight: 300;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 .rootTLetter {
+  font-size: 85px;
+  font-weight: 300;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* SKILLS word */
 
+.skillsKLetter,
+.skillsILetter {
+  color: rgb(52, 167, 199);
+}
+
 .skillsSLetter {
+  color: #db21d8;
+  font-size: 55px;
+  font-weight: 200;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .skillsKLetter {
+  font-size: 85px;
+  font-weight: 300;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .skillsILetter {
+  font-size: 85px;
+  font-weight: 300;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.asimovian-regular,
 .skillsLLetter {
+  color: #3ddb21;
+  font-size: 100px;
+  font-family: "Asimovian", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
+
+.bitcount-single-ink-,
 .skillsLTwoLetter {
+  color: #d90cf0;
+  font-size: 120px;
+  font-family: "Bitcount Single Ink", system-ui;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings: "slnt" 0, "CRSV" 0.5, "ELSH" 0, "ELXP" 0, "SZP1" 0,
+    "SZP2" 0, "XPN1" 0, "XPN2" 0, "YPN1" 0, "YPN2" 0;
 }
+
+.archivo-black-regular,
 .skillsSTwoLetter {
+  font-size: 100px;
+  color: #22734f;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* SYMBOLS */
 
 .hyphen {
+  color: #d90cf0;
+  font-size: 60px;
+  font-weight: 100;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
 }
 .exclamation-mark {
+  color: black;
+  font-size: 90px;
+  font-weight: 200;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .question-mark {
+  color: #e80c38;
+  font-size: 60px;
+  font-weight: 300;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
